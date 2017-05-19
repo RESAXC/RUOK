@@ -1,18 +1,7 @@
-@echo off
+对不起,暂不提供1.0版本代码
+请查看1.1版本:https://github.com/FIFCOM/RUOKv1.1
 
-::**************************************
-::Email: fifcom.cn@gmail.com
-::
-::(C) 2017 FIFCOM ALLRIGHTS RESERVERED
-::**************************************
+I'm sorry, temporarily not provides code version 1.0
+Please see the version 1.1: https://github.com/FIFCOM/RUOKv1.1
 
-if "%1"=="h" goto 1
-start mshta vbscript:createobject("wscript.shell").run("""%~nx0"" h",0)(window.close)&&exit 
-:1
-start mshta vbscript:msgbox("Are you OK？",0,"雷军：")(window.close)&&exit
-(window.close)&&exit
-ping -n 1 127.1>nul
-goto 2
-
-:2
-goto 1
+(C) 2013-2017 All Rights Reservered.
